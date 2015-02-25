@@ -306,9 +306,9 @@ set on server (by passing data to `views/layoutAdmin.js`) such as siteUrl.
 
 
 ####Directory structure for `assets/styles`
-- Use `account.less` to style member pages (`account` app).
-- Use `visitor.less` to style guest pages (`visitor` app).
-- Use `global.less` to style both guest and visitor pages.
+- Use `account.less` to specify styles for member pages (`account` app).
+- Use `visitor.less` to specify styles for guest pages (`visitor` app).
+- Use `global.less` to specify styles for both guest and visitor pages.
 - If you must create a new style file, make sure it has `.less`
 extension and do not forget to `@import` it in the
   `importer.less` file.
