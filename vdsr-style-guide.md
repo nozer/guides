@@ -4,7 +4,7 @@
 ###General
 
 General guidelines that we will use for the angular app are subset of
-the [style guide of John Papa](https://github.com/nozer/angularjs-styleguide).
+the [style guide of John Papa](https://github.com/johnpapa/angularjs-styleguide).
 I am linking to the parts that we will be using.
 
 - [One component per file (single responsibility)](https://github.com/nozer/angularjs-styleguide#single-responsibility)
