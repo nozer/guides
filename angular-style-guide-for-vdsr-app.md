@@ -86,8 +86,7 @@ to avoid having too much nesting (for ease of navigation).
 ####Directory Structure for `account`
 - Controllers will have `.ctrl.js` extension and the partials
 will have `.partial.html` extension.
-- Name for the partial and controller will be the same (
-excluding extension).
+- Name for the partial and controller will be the same (excluding extension).
 For example: `groups.ctrl.js`, `groups.partial.html`.
 - All the directories and sub directories under `account`
 must reflect the name of the state.
@@ -187,12 +186,15 @@ template files per directive.
   (`stw-user-list.js` vs `stw-user-list.html`)
 - If more than one template files are needed for the same directive, one of the following conventions should be followed:
     - Put it in a separate file named by adding suffix to the base
-    template file name(`stw-user-list-helper.html`)
+    template file name (`stw-user-list-helper.html`)
     - Put it as an inline template inside the main template file
-    as `script` tag with an id having the same name as the base template but with suffix added: i.e  ```
+    as `script` tag with an id having the same name as the base template but with suffix added: i.e
+
+    ```
     <script type="text/ng-template" id="stw-user-list-helper">
     ...</script>
     ```
+
 - Use `controller` instead of `link` in directive definition - unless link usage is a must
 - Put all of the directives inside the `directives/` folder shown above.
 - Main template file content for the directive must be wrapped
