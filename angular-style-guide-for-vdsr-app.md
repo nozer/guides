@@ -232,7 +232,7 @@ trigger the relevant event from a method
 factory service so that the stores listening
 to this event can update their data.
 - Action file name should end with `-actions.js` suffix
-(i.e. `user-actions.js`) and service name must be camelCased like `userActions`.
+(i.e. `user-actions.js`) and service name must be camelCased (i.e. `userActions`).
 - The `action method` must return a promise (if doing async work).
 - It should fire the relevant event after async operation is completed successfully.
 - Directive or controller that called this `action method` should use the
@@ -293,7 +293,8 @@ function storeDef($filter, constants, utils){
 
 ####Services
 - Any service that is not `action` or `store` goes in `services/`.
-- File name should reflect the name of the service. Service names, if contains more than 1 words,
+- File name should reflect the name of the service. Service names,
+if contains more than 1 word,
 must be camelCased while the file name must be hyphenated
   (i.e. `self-ref.js` vs `selfRef`).
 - `api.js` will contain all our server calls
