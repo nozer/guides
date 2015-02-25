@@ -32,6 +32,15 @@ I am linking to the parts that we will be using.
 
 ###VDSR Specific
 
+####Must Know Concepts / Libraries
+- [angular $q promises](https://docs.angularjs.org/api/ng/service/$q) - also explained [here](http://andyshora.com/promises-angularjs-explained-as-cartoon.html) as cartoon!
+- [ui-router](https://github.com/angular-ui/ui-router)
+- [ui-bootstrap](http://angular-ui.github.io/bootstrap/) - especially modals, tabs
+- [Flux Application Architecture Concepts](http://facebook.github.io/flux/docs/overview.html)
+- [flux-angular module that helps us implement flux architecture for angular](https://github.com/christianalfoni/flux-angular)
+- [self-referential library for group trees / hierarchy](https://github.com/nozer/self-referential)
+
+####Directory Structure
 We will use the `clientapp/` directory for the javascript
 and html files and the `assets/` directory for the
 style files.
