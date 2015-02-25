@@ -191,8 +191,7 @@ template files per directive.
     as `script` tag with an id having the same name as the base template but with suffix added: i.e
 
     ```
-    <script type="text/ng-template" id="stw-user-list-helper">
-    ...</script>
+    <script type="text/ng-template" id="stw-user-list-helper">...</script>
     ```
 
 - Use `controller` instead of `link` in directive definition - unless link usage is a must
