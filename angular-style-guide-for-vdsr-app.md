@@ -303,3 +303,12 @@ must be camelCased while the file name must be hyphenated
 set on server (by passing data to `views/layoutAdmin.js`) such as siteUrl.
 - `ui.js` contains code regarding showing user interfaces elements such as dialog.
 - `utils.js` contains generic useful functions.
+
+
+####Directory structure for `assets/styles`
+- Use `account.less` to style member pages (`account` app).
+- Use `visitor.less` to style guest pages (`visitor` app).
+- Use `global.less` to style both guest and visitor pages.
+- If you must create a new style file, make sure it has `.less`
+extension and do not forget to `@import` it in the
+  `importer.less` file.
