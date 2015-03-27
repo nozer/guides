@@ -240,7 +240,8 @@ trigger the relevant event from a method
 (henceforth `action method`) in that
 action service so that the stores listening
 to this event can update their data. Only exception is the tc3Proxy service, 
-which is located in `services/`, that acts as `action service` as well as api. 
+which is located in `services/`, that acts as `action service` as well as api 
+because of its side effects on backend as well as intertwined relationship with sockets . 
 - Action file name should end with `-actions.js` suffix
 (i.e. `user-actions.js`) and service name must be camelCased (i.e. `userActions`).
 - The `action method` must return a promise (if doing async work).
